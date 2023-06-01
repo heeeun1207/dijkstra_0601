@@ -38,11 +38,11 @@ graph = {
     'D1': {'E1': 29.1, 'E2': 32.6, 'E3': 24.3, 'E19': 19.6, 'F1': 14.4}
 }
 
-start_node = 'E4'
+start_node = 'E12'
 
 # Merge variable_edges into graph
 variable_edges = {
-    ('E19'): 100
+    ('F3'): 100
 }
 
 for node1 in variable_edges:
